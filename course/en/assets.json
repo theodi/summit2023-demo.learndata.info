@@ -1,0 +1,98 @@
+{
+  "94c4c63ec48f60d70c5e410b4f75b5f07ff640c2.jpg": {
+    "title": "Cleaning 3",
+    "description": "people cleaning",
+    "source": "http://www.shutterstock.com/pic-232737427",
+    "licence": "Shutterstock standard licence",
+    "attribution": "Kirill_M",
+    "tags": [
+      {
+        "title": "cleaning",
+        "_id": "5ee397aeb045644557c81ab9"
+      },
+      {
+        "title": "people",
+        "_id": "5ee3979cb045644557c81a45"
+      },
+      {
+        "title": "people cleaning",
+        "_id": "5ee397aeb045644557c81af1"
+      }
+    ]
+  },
+  "ae0541d37bc892cc4b6b2ae323d3cc05d21ef6b4.jpg": {
+    "title": "Cleaning 4 (430x430)",
+    "description": "Cleaning 4 (430x430)",
+    "source": "Source: http://www.shutterstock.com/pic-232737427",
+    "licence": "Shutterstock standard licence",
+    "attribution": "kirill_makarov",
+    "tags": [
+      {
+        "title": "cleaning",
+        "_id": "5ee397aeb045644557c81ab9"
+      },
+      {
+        "title": "Photo",
+        "_id": "5ee3979cb045644557c81a34"
+      },
+      {
+        "title": "Cartoon",
+        "_id": "5ee3979cb045644557c81a3e"
+      }
+    ]
+  },
+  "6f1bb59c1c8b9c921249192561a0c5a2be603932.jpg": {
+    "title": "Square image placeholder",
+    "description": "Square image placeholder",
+    "source": "https://adaptlearning.github.io/v4demo/#/id/co-05",
+    "licence": "CC0",
+    "attribution": "Adapt eLearning",
+    "tags": []
+  },
+  "ed8c41138dc38e9d42c4c464ef200a62b430716e.png": {
+    "title": "ODI Learning Roundal Blue",
+    "description": "Main ODI logo",
+    "source": "http://theodi.org/",
+    "licence": "All rights reserved",
+    "attribution": "The Open Data Institute",
+    "tags": [
+      {
+        "title": "ODI logo",
+        "_id": "5ee397b8b045644557c81b50"
+      },
+      {
+        "title": "intro logo",
+        "_id": "5ee397b8b045644557c81b51"
+      }
+    ]
+  },
+  "50cd2a8785a924e204ab876d46a71c045cb0f0fc.png": {
+    "title": "clipboard-update-round.png",
+    "description": "clipbaord",
+    "source": "theodi.org",
+    "licence": "All rights reserved",
+    "attribution": "ODI",
+    "tags": []
+  },
+  "1954b98ce9fcddab0233ebd730b0a9733f0c47d3.jpg": {
+    "title": "table-data-430x430",
+    "description": "img 2 mod9 NI Gov\nTable Data",
+    "tags": []
+  },
+  "2ac211a811010b32ab0d98a35b9a76a0054a06ef.csv": {
+    "title": "S2023 Model Answer",
+    "description": "Summit 2023 - Cleaning Exercise Model Answer",
+    "source": "https://theodi.org",
+    "licence": "CC-BY",
+    "attribution": "James Arthur Cattell",
+    "tags": []
+  },
+  "fcd86ce0481b77007475ba34c4fbb16ebd5db096.csv": {
+    "title": "S2023 Unclean Data",
+    "description": "Summit 2023 - Cleaning Exercise Unclean Data",
+    "source": "https://theodi.org",
+    "licence": "CC-BY",
+    "attribution": "James Arthur Cattell",
+    "tags": []
+  }
+}
