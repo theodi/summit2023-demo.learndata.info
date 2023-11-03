@@ -80,7 +80,7 @@
         "titleText": "About",
         "contactEMail": "training@theodi.org",
         "contactLinkText": "Contact",
-        "aboutCredit": "",
+        "aboutCredit": "<p>© 2023 Open Data Institute - All Rights Reserved</p>",
         "SL_text": "",
         "SL_facebook": "",
         "SL_flickr": "",
@@ -448,6 +448,31 @@
       "shadow-inverted": "#ffffff"
     }
   },
+  "_aboutPage": {
+    "_items": [
+      {
+        "title": "",
+        "description": "<p>At ODI, we aim to explore how responsible Generative AI (Artificial Intelligence) can improve the learning experience in formative assessments.</p><p>We have developed this module to provide an early experience of what learning with AI can look like.</p><p>If you have any questions or concerns, please contact us.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      }
+    ]
+  },
+  "_FooterLink": {
+    "_items": [
+      {
+        "title": "Privacy Policy",
+        "link": "https://theodi.org/our-policies/privacy-policy"
+      }
+    ]
+  },
+  "_assessment": {
+    "_isPercentageBased": true,
+    "_scoreToPass": 60,
+    "_correctToPass": 60
+  },
   "_tutor": {
     "_type": "notify",
     "_classes": "",
@@ -457,23 +482,12 @@
       "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
     }
   },
-  "_aboutPage": {
-    "_items": []
-  },
   "_pageLevelProgress": {
     "_isEnabled": true,
     "_showPageCompletion": true,
     "_isCompletionIndicatorEnabled": false,
     "_isShownInNavigationBar": true,
     "_showAtCourseLevel": false
-  },
-  "_FooterLink": {
-    "_items": []
-  },
-  "_assessment": {
-    "_isPercentageBased": true,
-    "_scoreToPass": 60,
-    "_correctToPass": 60
   },
   "_boxMenu": {
     "_graphic": {
