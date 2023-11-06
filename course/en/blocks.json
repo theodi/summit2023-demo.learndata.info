@@ -47,7 +47,7 @@
     }
   },
   {
-    "title": "Can you clean the data?",
+    "title": "Summary",
     "displayTitle": "",
     "body": "",
     "_classes": "",
@@ -59,8 +59,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "6544f8ab736c1100e618a8d5",
-    "_parentId": "6544c8b6736c1100e61849af",
+    "_id": "6544fb4e736c1100e618cc90",
+    "_parentId": "6544fb4e736c1100e618cc7d",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
@@ -94,7 +94,7 @@
     }
   },
   {
-    "title": "Summary",
+    "title": "Introduction",
     "displayTitle": "",
     "body": "",
     "_classes": "",
@@ -106,8 +106,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "6544fb4e736c1100e618cc90",
-    "_parentId": "6544fb4e736c1100e618cc7d",
+    "_id": "6548c5b68f89890090b7b1e5",
+    "_parentId": "6544c8b6736c1100e61849af",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
@@ -188,7 +188,7 @@
     }
   },
   {
-    "title": "How you will receive feedback",
+    "title": "Can you clean the data?",
     "displayTitle": "",
     "body": "",
     "_classes": "",
@@ -200,7 +200,7 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "6544f952736c1100e618ba25",
+    "_id": "6544f8ab736c1100e618a8d5",
     "_parentId": "6544c8b6736c1100e61849af",
     "_type": "block",
     "_onScreen": {
@@ -282,58 +282,11 @@
     }
   },
   {
-    "title": "Try it for yourself",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 7,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_requireCompletionOf": -1,
-    "_ariaLevel": 0,
-    "_id": "6544c8b6736c1100e61849c2",
-    "_parentId": "6544c8b6736c1100e61849af",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_assessment": {
-      "_quizBankID": 1
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "_odi-theme": {
-      "_backgroundImage": {
-        "_large": "",
-        "_medium": "",
-        "_small": ""
-      },
-      "_backgroundStyles": {
-        "_backgroundRepeat": null,
-        "_backgroundSize": null,
-        "_backgroundPosition": null
-      },
-      "_minimumHeights": {
-        "_large": null,
-        "_medium": null,
-        "_small": null
-      },
-      "_isDividerBlock": false
-    }
-  },
-  {
     "title": "Cleaning Data",
     "displayTitle": "",
     "body": "",
     "_classes": "",
-    "_trackingId": 8,
+    "_trackingId": 7,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
@@ -376,11 +329,105 @@
     }
   },
   {
-    "title": "Revealing the value: what do we mean by clean data?",
+    "title": "How you will receive feedback",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 8,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "6544f952736c1100e618ba25",
+    "_parentId": "6544c8b6736c1100e61849af",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_odi-theme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_minimumHeights": {
+        "_large": null,
+        "_medium": null,
+        "_small": null
+      },
+      "_isDividerBlock": false
+    }
+  },
+  {
+    "title": "Try it for yourself",
     "displayTitle": "",
     "body": "",
     "_classes": "",
     "_trackingId": 9,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "6544c8b6736c1100e61849c2",
+    "_parentId": "6544c8b6736c1100e61849af",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_odi-theme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_minimumHeights": {
+        "_large": null,
+        "_medium": null,
+        "_small": null
+      },
+      "_isDividerBlock": false
+    }
+  },
+  {
+    "title": "Revealing the value: what do we mean by clean data?",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 10,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
@@ -427,7 +474,7 @@
     "displayTitle": "",
     "body": "",
     "_classes": "",
-    "_trackingId": 10,
+    "_trackingId": 11,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,

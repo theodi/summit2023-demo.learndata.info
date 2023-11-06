@@ -71,7 +71,7 @@
     "_allowsAnyCase": false,
     "_allowsPunctuation": false,
     "_feedback": {
-      "title": "",
+      "title": "How did you do?",
       "_incorrect": {
         "final": "",
         "notFinal": ""
@@ -115,7 +115,7 @@
     "_disableAccessibilityState": false,
     "title": "Introduction",
     "displayTitle": "Introduction",
-    "body": "<p>Data has value and that value is maximised when we maintain the cleanliness and utility of the data. To ensure that data maintains its value, we must ensure it is reliable, consistent and easily manageable. In this learning activity, we introduce <strong>data cleaning</strong> and an opportunity to receive feedback from the <strong>Assistant AI Tutor</strong>. &nbsp;<br /><br />Through this activity, you will:</p><ul><li>Understand what is meant by clean data,&nbsp;</li><li>Identify the common errors found in data, and</li><li>Clean a sample data set and maximise its utility.<br />&nbsp;</li></ul>",
+    "body": "<p>Data has value and that value is maximised when we maintain the cleanliness and utility of the data. To ensure that data maintains its value, we must ensure it is reliable, consistent and easily manageable. In this learning activity, we introduce <strong>data cleaning</strong> and an opportunity to receive feedback from the <strong>Assistant AI Tutor</strong>. &nbsp;</p><p>Through this activity, you will:</p><ul><li>Understand what is meant by clean data,&nbsp;</li><li>Identify the common errors found in data, and</li><li>Clean a sample data set and maximise its utility.</li></ul>",
     "_id": "6544f67c736c1100e6188750",
     "_parentId": "6544f651736c1100e6188325",
     "_type": "component",
@@ -891,5 +891,100 @@
       "_componentURI": ""
     },
     "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "ticks",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Introduction",
+    "displayTitle": "Introduction",
+    "body": "<p>The ODI is embarking on a pilot project that integrates Generative AI into our learning content development and assessment, aiming to enhance the learner experience by providing instant and effective feedback on formative learning activities.&nbsp;</p><p>This learning activity provides an opportunity for you to engage with the Assistant AI Tutor and experience the personalised feedback it generates.&nbsp;</p>",
+    "_id": "6548c5b68f89890090b7b1fe",
+    "_parentId": "6548c5b68f89890090b7b1e5",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_transmitter": {
+      "_isEnabled": false,
+      "_componentURI": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "intro-logo",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Learning logo",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6548c5b68f89890090b7b213",
+    "_parentId": "6548c5b68f89890090b7b1e5",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_transmitter": {
+      "_isEnabled": false,
+      "_componentURI": ""
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "longdescription": "",
+      "large": "course/en/assets/ed8c41138dc38e9d42c4c464ef200a62b430716e.png",
+      "small": "course/en/assets/ed8c41138dc38e9d42c4c464ef200a62b430716e.png",
+      "attribution": "<a href=\"http://theodi.org/\" target=\"_blank\">The Open Data Institute</a> <span class='assetLicence'>[All rights reserved]</span>",
+      "_url": "",
+      "_target": null
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0
   }
 ]
