@@ -469,6 +469,10 @@
       {
         "title": "Privacy Policy",
         "link": "https://theodi.org/our-policies/privacy-policy"
+      },
+      {
+        "title": "Report bug/enhancement",
+        "link": "https://forms.gle/pF6oKzKaA9JFHp7H7"
       }
     ]
   },

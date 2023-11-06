@@ -234,51 +234,13 @@
     "_isResetOnRevisit": "false",
     "_ariaLevel": 0,
     "_disableAccessibilityState": false,
-    "title": "Summary",
-    "displayTitle": "Summary",
+    "title": "Thank-you!",
+    "displayTitle": "Thank-you!",
     "body": "<p>We hope you have enjoyed this short learning experience. As well as sharing a sample of our learning content with you, we have also used this opportunity to provide you with the opportunity to experience the AI Assistant Tutor (powered by ChatGPT) to generate formative feedback.</p><p><a class=\"button\" href=\"https://learning.theodi.org/courses/strategic-data-skills-self-paced\" target=\"_blank\">You can learn more about data cleaning on our newly revamped Strategic Data Skills course</a></p>",
     "_id": "6544fba8736c1100e618d3c7",
     "_parentId": "6544fb4e736c1100e618cc90",
     "_type": "component",
-    "_layout": "full",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_tutor": {
-      "_isInherited": true,
-      "_type": "notify",
-      "_classes": "",
-      "_hasNotifyBottomButton": false,
-      "_button": {
-        "text": "{{_globals._extensions._tutor.hideFeedback}}",
-        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
-      }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "instruction": ""
-  },
-  {
-    "_component": "text",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_isResetOnRevisit": "false",
-    "_ariaLevel": 0,
-    "_disableAccessibilityState": false,
-    "title": "What's next for the AI Assistant Tutor?",
-    "displayTitle": "What's next for the AI Assistant Tutor?",
-    "body": "<p>At ODI, we aim to explore how responsible Generative AI (Artificial Intelligence) can improve the learning experience in formative assessments. We are excited to have received funding from UKRI for SAGE-RAI (Smart Assessment and Guided Education with Responsible AI) - which will work with educational GenAI tools, including the AI Digital Assistant, to explore how the use of responsible GenAI may lead to improved student achievements.&nbsp;</p><p>Inspired by Bloom’s 1984 study on one-on-one teaching effectiveness and the potential for cost-effective personalised education at scale, the project’s goal is to overcome tutor limitations in handling large groups by investigating how responsible GenAI can enhance tutoring, offer tailored learning experiences and provide student feedback. The project aims to create a platform that supports assessment and student guidance while addressing issues like misinformation, copyright and bias.</p><p>The project will deliver open-source and openly licensed reusable tools to support students around formative and summative assessment, to enhance learning, and provide insights into the sustainability of GenAI. It will also develop best practices and guidance on how to apply GenAI in educational settings in a responsible ethical manner.&nbsp;</p><p>The SAGE-RAI project is a partnership between The Open University and the <a href=\"https://theodi.org/\">Open Data Institute</a> which was founded in 2012 by Sir Tim Berners-Lee. The project has been awarded by <a href=\"https://www.rai.ac.uk/\">Responsible AI UK</a>, which aims to connect UK research into Responsible AI to leading research centres and institutions around the world.&nbsp;</p><p>We are hopeful that this project will prove to be a game-changer for adult education providing cheap and easy access to high quality learning.</p><p><strong>A Request for Feedback</strong>: We are looking for input from learners like you to support our project. Your feedback is essential in shaping the responsible use of AI in education. Please take a short survey (no more than 3 mins of your time), to provide feedback on your learning experience, and your exposure to the Assistant AI Tutor. Your input will help us create a tool that benefits both learners and educators.<br /><br /><strong>Why Your Feedback Matters</strong>: We want to ensure that our Assistant AI Tutor enhances your educational experience and acts as an effective tool to provide effective personalised learning. However, in our investigations we are committed to identifying consequences, as well as addressing potential challenges and uncertainties. Your insights will help us refine our approach and understand how Generative AI can be used as a valuable tool for learning.</p>",
-    "_id": "65450391736c1100e6193aad",
-    "_parentId": "6545023e736c1100e6193283",
-    "_type": "component",
-    "_layout": "full",
+    "_layout": "left",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
@@ -381,6 +343,98 @@
       "large": "course/en/assets/ed8c41138dc38e9d42c4c464ef200a62b430716e.png",
       "small": "course/en/assets/ed8c41138dc38e9d42c4c464ef200a62b430716e.png",
       "attribution": "<a href=\"http://theodi.org/\" target=\"_blank\">The Open Data Institute</a> <span class='assetLicence'>[All rights reserved]</span>",
+      "_url": "",
+      "_target": null
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0
+  },
+  {
+    "_component": "iframe",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "How did you find your experience?",
+    "displayTitle": "How did you find your experience?",
+    "body": "<p>At ODI, we aim to explore how responsible Generative AI (Artificial Intelligence) can improve the learning experience in formative assessments. We are excited to have received funding from UKRI for SAGE-RAI (Smart Assessment and Guided Education with Responsible AI) - which will work with educational GenAI tools, including the AI Digital Assistant, to explore how the use of responsible GenAI may lead to improved student achievements.&nbsp;</p><p><strong>A Request for Feedback</strong>: We are looking for input from learners like you to support our project. Your feedback is essential in shaping the responsible use of AI in education. Please consider completing the short survey below (no more than 3 mins of your time), to provide feedback on your learning experience, and your exposure to the Assistant AI Tutor. Your input will help us create a tool that benefits both learners and educators.<br /><br /><strong>Why Your Feedback Matters</strong>: We want to ensure that our Assistant AI Tutor enhances your educational experience and acts as an effective tool to provide effective personalised learning. However, in our investigations we are committed to identifying consequences, as well as addressing potential challenges and uncertainties. Your insights will help us refine our approach and understand how Generative AI can be used as a valuable tool for learning.</p>",
+    "_id": "6548f3018f89890090b854ed",
+    "_parentId": "6548f2708f89890090b84c6f",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_setCompletionOn": "inview",
+    "instruction": "",
+    "_src": "https://share.hsforms.com/12mmdJzImSxaudoZFlhypxgg1jy",
+    "_initialWidth": 1024,
+    "_initialHeight": 1810,
+    "_dimensionDelegateSelector": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "clipboard",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Clipboard",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6548f5818f89890090b86f1a",
+    "_parentId": "6544fb4e736c1100e618cc90",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "longdescription": "",
+      "large": "course/en/assets/50cd2a8785a924e204ab876d46a71c045cb0f0fc.png",
+      "small": "course/en/assets/50cd2a8785a924e204ab876d46a71c045cb0f0fc.png",
+      "attribution": "<a href=\"theodi.org\" target=\"_blank\">ODI</a> <span class='assetLicence'>[All rights reserved]</span>",
       "_url": "",
       "_target": null
     },
