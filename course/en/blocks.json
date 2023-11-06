@@ -1,57 +1,10 @@
 [
   {
-    "title": "Introduction",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 1,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_requireCompletionOf": -1,
-    "_ariaLevel": 0,
-    "_id": "6544f651736c1100e6188325",
-    "_parentId": "6544f651736c1100e6188312",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_assessment": {
-      "_quizBankID": 1
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "_odi-theme": {
-      "_backgroundImage": {
-        "_large": "",
-        "_medium": "",
-        "_small": ""
-      },
-      "_backgroundStyles": {
-        "_backgroundRepeat": null,
-        "_backgroundSize": null,
-        "_backgroundPosition": null
-      },
-      "_minimumHeights": {
-        "_large": null,
-        "_medium": null,
-        "_small": null
-      },
-      "_isDividerBlock": false
-    }
-  },
-  {
     "title": "Summary",
     "displayTitle": "",
     "body": "",
     "_classes": "",
-    "_trackingId": 2,
+    "_trackingId": 1,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
@@ -98,7 +51,7 @@
     "displayTitle": "",
     "body": "",
     "_classes": "",
-    "_trackingId": 3,
+    "_trackingId": 2,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
@@ -141,58 +94,11 @@
     }
   },
   {
-    "title": "Introducing the Assistant AI Tutor",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 4,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_requireCompletionOf": -1,
-    "_ariaLevel": 0,
-    "_id": "6544f6cc736c1100e6188ded",
-    "_parentId": "6544f651736c1100e6188312",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_assessment": {
-      "_quizBankID": 1
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "_odi-theme": {
-      "_backgroundImage": {
-        "_large": "",
-        "_medium": "",
-        "_small": ""
-      },
-      "_backgroundStyles": {
-        "_backgroundRepeat": null,
-        "_backgroundSize": null,
-        "_backgroundPosition": null
-      },
-      "_minimumHeights": {
-        "_large": null,
-        "_medium": null,
-        "_small": null
-      },
-      "_isDividerBlock": false
-    }
-  },
-  {
     "title": "Can you clean the data?",
     "displayTitle": "",
     "body": "",
     "_classes": "",
-    "_trackingId": 5,
+    "_trackingId": 3,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
@@ -235,11 +141,11 @@
     }
   },
   {
-    "title": "Introducing SAGE-RAI",
+    "title": "What's next for the AI Assistant Tutor?",
     "displayTitle": "",
     "body": "",
     "_classes": "",
-    "_trackingId": 6,
+    "_trackingId": 4,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
@@ -282,58 +188,11 @@
     }
   },
   {
-    "title": "Cleaning Data",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 7,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_requireCompletionOf": -1,
-    "_ariaLevel": 0,
-    "_id": "6544f6ef736c1100e6189199",
-    "_parentId": "6544f651736c1100e6188312",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_assessment": {
-      "_quizBankID": 1
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "_odi-theme": {
-      "_backgroundImage": {
-        "_large": "",
-        "_medium": "",
-        "_small": ""
-      },
-      "_backgroundStyles": {
-        "_backgroundRepeat": null,
-        "_backgroundSize": null,
-        "_backgroundPosition": null
-      },
-      "_minimumHeights": {
-        "_large": null,
-        "_medium": null,
-        "_small": null
-      },
-      "_isDividerBlock": false
-    }
-  },
-  {
     "title": "How you will receive feedback",
     "displayTitle": "",
     "body": "",
     "_classes": "",
-    "_trackingId": 8,
+    "_trackingId": 5,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
@@ -380,7 +239,7 @@
     "displayTitle": "",
     "body": "",
     "_classes": "",
-    "_trackingId": 9,
+    "_trackingId": 6,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
@@ -390,100 +249,6 @@
     "_ariaLevel": 0,
     "_id": "6544c8b6736c1100e61849c2",
     "_parentId": "6544c8b6736c1100e61849af",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_assessment": {
-      "_quizBankID": 1
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "_odi-theme": {
-      "_backgroundImage": {
-        "_large": "",
-        "_medium": "",
-        "_small": ""
-      },
-      "_backgroundStyles": {
-        "_backgroundRepeat": null,
-        "_backgroundSize": null,
-        "_backgroundPosition": null
-      },
-      "_minimumHeights": {
-        "_large": null,
-        "_medium": null,
-        "_small": null
-      },
-      "_isDividerBlock": false
-    }
-  },
-  {
-    "title": "Revealing the value: what do we mean by clean data?",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 10,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_requireCompletionOf": -1,
-    "_ariaLevel": 0,
-    "_id": "6544f75b736c1100e6189953",
-    "_parentId": "6544f651736c1100e6188312",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_assessment": {
-      "_quizBankID": 1
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "_odi-theme": {
-      "_backgroundImage": {
-        "_large": "",
-        "_medium": "",
-        "_small": ""
-      },
-      "_backgroundStyles": {
-        "_backgroundRepeat": null,
-        "_backgroundSize": null,
-        "_backgroundPosition": null
-      },
-      "_minimumHeights": {
-        "_large": null,
-        "_medium": null,
-        "_small": null
-      },
-      "_isDividerBlock": false
-    }
-  },
-  {
-    "title": "Common errors in data",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 11,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_requireCompletionOf": -1,
-    "_ariaLevel": 0,
-    "_id": "6544f7ff736c1100e618a254",
-    "_parentId": "6544f651736c1100e6188312",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,

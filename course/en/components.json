@@ -35,10 +35,6 @@
       "_isEnabled": false,
       "_isCompletionIndicatorEnabled": false
     },
-    "_transmitter": {
-      "_isEnabled": false,
-      "_componentURI": ""
-    },
     "_vanilla": {
       "_textAlignment": {
         "_title": "",
@@ -105,521 +101,6 @@
   },
   {
     "_component": "text",
-    "_classes": "ticks",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_isResetOnRevisit": "false",
-    "_ariaLevel": 0,
-    "_disableAccessibilityState": false,
-    "title": "Introduction",
-    "displayTitle": "Introduction",
-    "body": "<p>Data has value and that value is maximised when we maintain the cleanliness and utility of the data. To ensure that data maintains its value, we must ensure it is reliable, consistent and easily manageable. In this learning activity, we introduce <strong>data cleaning</strong> and an opportunity to receive feedback from the <strong>Assistant AI Tutor</strong>. &nbsp;</p><p>Through this activity, you will:</p><ul><li>Understand what is meant by clean data,&nbsp;</li><li>Identify the common errors found in data, and</li><li>Clean a sample data set and maximise its utility.</li></ul>",
-    "_id": "6544f67c736c1100e6188750",
-    "_parentId": "6544f651736c1100e6188325",
-    "_type": "component",
-    "_layout": "left",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_tutor": {
-      "_isInherited": true,
-      "_type": "notify",
-      "_classes": "",
-      "_hasNotifyBottomButton": false,
-      "_button": {
-        "text": "{{_globals._extensions._tutor.hideFeedback}}",
-        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
-      }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "_transmitter": {
-      "_isEnabled": false,
-      "_componentURI": ""
-    },
-    "instruction": ""
-  },
-  {
-    "_component": "graphic",
-    "_classes": "intro-logo",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_isResetOnRevisit": "false",
-    "_ariaLevel": 0,
-    "_disableAccessibilityState": false,
-    "title": "Learning logo",
-    "displayTitle": "",
-    "body": "",
-    "_id": "6544f680736c1100e618878f",
-    "_parentId": "6544f651736c1100e6188325",
-    "_type": "component",
-    "_layout": "right",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_tutor": {
-      "_isInherited": true,
-      "_type": "notify",
-      "_classes": "",
-      "_hasNotifyBottomButton": false,
-      "_button": {
-        "text": "{{_globals._extensions._tutor.hideFeedback}}",
-        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
-      }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "_transmitter": {
-      "_isEnabled": false,
-      "_componentURI": ""
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "longdescription": "",
-      "large": "course/en/assets/ed8c41138dc38e9d42c4c464ef200a62b430716e.png",
-      "small": "course/en/assets/ed8c41138dc38e9d42c4c464ef200a62b430716e.png",
-      "attribution": "<a href=\"http://theodi.org/\" target=\"_blank\">The Open Data Institute</a> <span class='assetLicence'>[All rights reserved]</span>",
-      "_url": "",
-      "_target": null
-    },
-    "_isScrollable": false,
-    "_defaultScrollPercent": 0
-  },
-  {
-    "_component": "text",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_isResetOnRevisit": "false",
-    "_ariaLevel": 0,
-    "_disableAccessibilityState": false,
-    "title": "Introducing the Assistant AI Tutor",
-    "displayTitle": "Introducing the Assistant AI Tutor",
-    "body": "<p>The ODI is embarking on a pilot project that integrates Generative AI into our learning content development and assessment, aiming to enhance the learner experience by providing instant and effective feedback on formative learning activities.&nbsp;</p><p>Powered by ChatGPT, we call this ODIs Assistant AI tutor and have implemented this into some of our courses with a view to evaluating how effective it is and how it could scale, all whilst promoting responsible AI integration in education and inspiring innovation.</p><p>This learning activity provides an opportunity for you to engage with the Assistant AI Tutor and experience the personalised feedback it generates. We are delighted to be working collaboratively with the Open University this year to investigate and research ethical use of generative AI in assessment and feedback and would really welcome your input and perspective. At the end of this learning experience you will find a short survey to share details of your experience and help inform our work.</p>",
-    "_id": "6544f6db736c1100e6188fb3",
-    "_parentId": "6544f6cc736c1100e6188ded",
-    "_type": "component",
-    "_layout": "full",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_tutor": {
-      "_isInherited": true,
-      "_type": "notify",
-      "_classes": "",
-      "_hasNotifyBottomButton": false,
-      "_button": {
-        "text": "{{_globals._extensions._tutor.hideFeedback}}",
-        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
-      }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "_transmitter": {
-      "_isEnabled": false,
-      "_componentURI": ""
-    },
-    "instruction": ""
-  },
-  {
-    "_component": "text",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_isResetOnRevisit": "false",
-    "_ariaLevel": 0,
-    "_disableAccessibilityState": false,
-    "title": "Cleaning Data",
-    "displayTitle": "Cleaning Data",
-    "body": "<p>One of the biggest challenges when working with any data is dealing with errors. Often errors are not even noticed by data publishers because the data changes over its lifespan. In other cases, errors can be the result of human mistakes in data entry, like mistyping or incorrect abbreviations.</p><p>When working with any data, it is important to know how to find errors and correct them to make the data more useful.</p>",
-    "_id": "6544f71d736c1100e618938d",
-    "_parentId": "6544f6ef736c1100e6189199",
-    "_type": "component",
-    "_layout": "left",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_tutor": {
-      "_isInherited": true,
-      "_type": "notify",
-      "_classes": "",
-      "_hasNotifyBottomButton": false,
-      "_button": {
-        "text": "{{_globals._extensions._tutor.hideFeedback}}",
-        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
-      }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "_transmitter": {
-      "_isEnabled": false,
-      "_componentURI": ""
-    },
-    "instruction": ""
-  },
-  {
-    "_component": "graphic",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_isResetOnRevisit": "false",
-    "_ariaLevel": 0,
-    "_disableAccessibilityState": false,
-    "title": "Graphic for cleaning data",
-    "displayTitle": "",
-    "body": "",
-    "_id": "6544f721736c1100e61893d8",
-    "_parentId": "6544f6ef736c1100e6189199",
-    "_type": "component",
-    "_layout": "right",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_tutor": {
-      "_isInherited": true,
-      "_type": "notify",
-      "_classes": "",
-      "_hasNotifyBottomButton": false,
-      "_button": {
-        "text": "{{_globals._extensions._tutor.hideFeedback}}",
-        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
-      }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "_transmitter": {
-      "_isEnabled": false,
-      "_componentURI": ""
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "longdescription": "",
-      "large": "course/en/assets/a755d34f2d683cb5d3c2ed1f187f7411827d72b2.jpg",
-      "small": "course/en/assets/a755d34f2d683cb5d3c2ed1f187f7411827d72b2.jpg",
-      "attribution": "<a href=\"https://elements.envato.com/cleaning-GARBKRT\" target=\"_blank\">Envato</a> <span class='assetLicence'>[Envato Element Licence]</span>",
-      "_url": "",
-      "_target": null
-    },
-    "_isScrollable": false,
-    "_defaultScrollPercent": 0
-  },
-  {
-    "_component": "text",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_isResetOnRevisit": "false",
-    "_ariaLevel": 0,
-    "_disableAccessibilityState": false,
-    "title": "Revealing the value: what do we mean by clean data?",
-    "displayTitle": "Revealing the value: what do we mean by clean data?",
-    "body": "<p>Knowing that data is clean is important to ensure you have a reliable starting point when working with it and creating new value from it.</p><p>Clean data is data that is consistent, free from duplication and ready for machine consumption.</p><p>If data is clean, it is easier to combine it with different datasets and gain deeper insights.</p>",
-    "_id": "6544f786736c1100e6189bb8",
-    "_parentId": "6544f75b736c1100e6189953",
-    "_type": "component",
-    "_layout": "right",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_tutor": {
-      "_isInherited": true,
-      "_type": "notify",
-      "_classes": "",
-      "_hasNotifyBottomButton": false,
-      "_button": {
-        "text": "{{_globals._extensions._tutor.hideFeedback}}",
-        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
-      }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "_transmitter": {
-      "_isEnabled": false,
-      "_componentURI": ""
-    },
-    "instruction": ""
-  },
-  {
-    "_component": "graphic",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_isResetOnRevisit": "false",
-    "_ariaLevel": 0,
-    "_disableAccessibilityState": false,
-    "title": "Graphic for Revealing the value: what do we mean by clean data?",
-    "displayTitle": "",
-    "body": "",
-    "_id": "6544f78a736c1100e6189c0f",
-    "_parentId": "6544f75b736c1100e6189953",
-    "_type": "component",
-    "_layout": "left",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_tutor": {
-      "_isInherited": true,
-      "_type": "notify",
-      "_classes": "",
-      "_hasNotifyBottomButton": false,
-      "_button": {
-        "text": "{{_globals._extensions._tutor.hideFeedback}}",
-        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
-      }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "_transmitter": {
-      "_isEnabled": false,
-      "_componentURI": ""
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "longdescription": "",
-      "large": "course/en/assets/c722e5018e8896fb7dc5013d923d1a4d349ebf78.jpg",
-      "small": "course/en/assets/c722e5018e8896fb7dc5013d923d1a4d349ebf78.jpg",
-      "attribution": "<a href=\"https://elements.envato.com/spreadsheets-PHB3PQR\" target=\"_blank\">Pressmaster</a> <span class='assetLicence'>[Envato Element Licence]</span>",
-      "_url": "",
-      "_target": null
-    },
-    "_isScrollable": false,
-    "_defaultScrollPercent": 0
-  },
-  {
-    "_component": "accordion",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_isResetOnRevisit": "false",
-    "_ariaLevel": 0,
-    "_disableAccessibilityState": false,
-    "title": "Common errors in data",
-    "displayTitle": "Common errors in data",
-    "body": "<p><span><span><span style=\"color:#000000\"><span><span><span>There are a number of common errors in data that you should look out for in any dataset you are working with.</span></span></span></span></span></span></p>",
-    "_id": "6544f814736c1100e618a529",
-    "_parentId": "6544f7ff736c1100e618a254",
-    "_type": "component",
-    "_layout": "left",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_tutor": {
-      "_isInherited": true,
-      "_type": "notify",
-      "_classes": "",
-      "_hasNotifyBottomButton": false,
-      "_button": {
-        "text": "{{_globals._extensions._tutor.hideFeedback}}",
-        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
-      }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "_transmitter": {
-      "_isEnabled": false,
-      "_componentURI": ""
-    },
-    "instruction": "Click the headings to explore further.",
-    "_setCompletionOn": "allItems",
-    "_items": [
-      {
-        "title": "Wrong date formats",
-        "body": "<p><span><span><span style=\"color:#000000\"><span><span><span>Dates can be written in inconsistent ways. Mixed date formats are sometimes simple to spot:&nbsp;</span></span></span></span></span></span></p><p><span><span><span style=\"color:#000000\"><strong><span><span>8-sep-2013</span></span></strong></span></span></span><span><span><span style=\"color:#000000\"><span><span><span> Vs. </span></span></span></span></span></span><span><span><span style=\"color:#000000\"><strong><span><span>8/9/2013</span></span></strong></span></span></span><br /><br /><span><span><span style=\"color:#000000\"><span><span><span>and sometimes less obvious:&nbsp;</span></span></span></span></span></span></p><p><span><span><span style=\"color:#000000\"><strong><span><span>8/9/2013</span></span></strong></span></span></span><span><span><span style=\"color:#000000\"><span><span><span> Vs. </span></span></span></span></span></span><span><span><span style=\"color:#000000\"><strong><span><span>9/8/2013</span></span></strong></span></span></span><span><span><span style=\"color:#000000\"><span><span><span>.</span></span></span></span></span></span><br /><br /><span><span><span style=\"color:#000000\"><span><span><span>Another challenge is that some applications, like Excel, will ‘guess’ the format when a dataset is opened, which can hide how dates are actually written in the file.</span></span></span></span></span></span></p><p><span><span><span style=\"color:#000000\"><span><span><span>The most common error is the mixed use of American (MM/DD/YYYY) and European (DD/MM/YYYY) formats.</span></span></span></span></span></span></p>",
-        "_imageAlignment": "full",
-        "_graphic": {
-          "alt": "",
-          "src": "",
-          "attribution": ""
-        },
-        "_classes": ""
-      },
-      {
-        "title": "No known time zone",
-        "body": "<p><span><span><span style=\"color:#000000\"><span><span><span>Related to dates are the problems of knowing the time zone of an event:</span></span></span></span></span></span></p><p><span><span><span style=\"color:#000000\"><span><span><span>2017-02-08 21:00:00</span></span></span></span></span></span></p><p><span><span><span style=\"color:#000000\"><span><span><span>With this example the use of the 24 hour clock tells us that this event is at 9pm. However, in which time zone? The most common occurrence of this problem is when trying to arrange meetings across time zones.</span></span></span></span></span></span></p><p><span><span><span style=\"color:#000000\"><span><span><span>Using a standardised date format, such as the </span></span></span></span></span></span><a href=\"https://en.wikipedia.org/wiki/ISO_8601\" style=\"text-decoration:none\"><span><span><span style=\"color:#1155cc\"><span><span><u><span><span>ISO 8601</span></span></u></span></span></span></span></span></a><span><span><span style=\"color:#000000\"><span><span><span> date format gives clarity to dates but does look complicated to the human eye:</span></span></span></span></span></span></p><p><span><span><span style=\"color:#000000\"><span><span><span>2017-02-08T14:52:04+00:00</span></span></span></span></span></span></p><p><span><span><span style=\"color:#000000\"><span><span><span>This ISO 8601 date format is the most widely recognised by computers. It consists of the date and time (separated by a \"T\") and an offset from Coordinated Universal Time (UTC). UTC is the same time zone at GMT (London) but does not observe daylight savings.&nbsp;</span></span></span></span></span></span></p><p><span><span><span style=\"color:#000000\"><span><span><span>If dates do not specify a timezone, then a machine will assume UTC and you could miss your flight by hours (or be very early for your flight).</span></span></span></span></span></span></p>",
-        "_imageAlignment": "full",
-        "_graphic": {
-          "alt": "",
-          "src": "",
-          "attribution": ""
-        },
-        "_classes": ""
-      },
-      {
-        "title": "Multiple Representations",
-        "body": "<p><span><span><span style=\"color:#000000\"><span><span><span>People often try to save time when entering data by abbreviating terms. If these abbreviations are not consistent, it can cause errors in the dataset.</span></span></span></span></span></span></p><p><span><span><span style=\"color:#000000\"><span><span><span>Differences in capitalisation, spacing and genders of adjectives can all cause errors.</span></span></span></span></span></span></p>",
-        "_imageAlignment": "full",
-        "_graphic": {
-          "alt": "",
-          "src": "",
-          "attribution": ""
-        },
-        "_classes": ""
-      },
-      {
-        "title": "Duplicate records",
-        "body": "<p><span><span><span style=\"color:#000000\"><span><span><span>A duplicate record is where the same piece of data has been entered more than once. Duplicate records often occur when datasets have been combined or because it was not known there was already an entry.</span></span></span></span></span></span></p>",
-        "_imageAlignment": "full",
-        "_graphic": {
-          "alt": "",
-          "src": "",
-          "attribution": ""
-        },
-        "_classes": ""
-      },
-      {
-        "title": "Redundant data",
-        "body": "<p><span><span><span style=\"color:#000000\"><span><span><span>Redundant data is anything that is not relevant to your work with the dataset. Often a dataset has been created for a specific purpose which requires details you may not need.</span></span></span></span></span></span></p><p><span><span><span style=\"color:#000000\"><span><span><span>Common occurrences of redundant data include rows that represent total amounts. Other times columns of data have been combined or replicated in order to assist human readability.</span></span></span></span></span></span></p>",
-        "_imageAlignment": "full",
-        "_graphic": {
-          "alt": "",
-          "src": "",
-          "attribution": ""
-        },
-        "_classes": ""
-      },
-      {
-        "title": "Mixed numerical scales",
-        "body": "<p><span><span><span style=\"color:#000000\"><span><span><span>Numerical values in datasets often use different scales to make it easier for a human to read. In budget datasets, for example, the units are often in the millions. 1,200,000 often becomes 1.2m. However, smaller amounts like 800,000 are still written in full. For a machine, this means they read the larger figure as 1.2, which causes errors.</span></span></span></span></span></span></p><p><span><span><span style=\"color:#000000\"><span><span><span>Be careful with the UK decimal point (2.5) and the European decimal point (2,5).</span></span></span></span></span></span></p>",
-        "_imageAlignment": "full",
-        "_graphic": {
-          "alt": "",
-          "src": "",
-          "attribution": ""
-        },
-        "_classes": ""
-      },
-      {
-        "title": "Mixed ranges",
-        "body": "<p><span><span><span style=\"color:#000000\"><span><span><span>Data is sometimes measured in ranges, such as age or salary range. In order for a machine to understand these ranges, it is important to separate the high and low values.</span></span></span></span></span></span></p>",
-        "_imageAlignment": "full",
-        "_graphic": {
-          "alt": "",
-          "src": "",
-          "attribution": ""
-        },
-        "_classes": ""
-      },
-      {
-        "title": "Spelling errors",
-        "body": "<p><span><span><span style=\"color:#000000\"><span><span><span>Spelling errors are often difficult to identify in tabular data. Don’t forget to run your data through a spell-checker to catch spelling errors.</span></span></span></span></span></span></p>",
-        "_imageAlignment": "full",
-        "_graphic": {
-          "alt": "",
-          "src": "",
-          "attribution": ""
-        },
-        "_classes": ""
-      }
-    ],
-    "_shouldCollapseItems": true,
-    "_shouldExpandFirstItem": false
-  },
-  {
-    "_component": "graphic",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_isResetOnRevisit": "false",
-    "_ariaLevel": 0,
-    "_disableAccessibilityState": false,
-    "title": "Graphic for common errors in data",
-    "displayTitle": "",
-    "body": "",
-    "_id": "6544f819736c1100e618a58c",
-    "_parentId": "6544f7ff736c1100e618a254",
-    "_type": "component",
-    "_layout": "right",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_tutor": {
-      "_isInherited": true,
-      "_type": "notify",
-      "_classes": "",
-      "_hasNotifyBottomButton": false,
-      "_button": {
-        "text": "{{_globals._extensions._tutor.hideFeedback}}",
-        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
-      }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "_transmitter": {
-      "_isEnabled": false,
-      "_componentURI": ""
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "longdescription": "",
-      "large": "course/en/assets/9d99eafb6e9af4874f6bbeec047fbb157cda1913.jpg",
-      "small": "course/en/assets/9d99eafb6e9af4874f6bbeec047fbb157cda1913.jpg",
-      "attribution": "<a href=\"https://elements.envato.com/error-4R6XWW3\" target=\"_blank\">margaritaylita</a> <span class='assetLicence'>[Envato Element Licence]</span>",
-      "_url": "",
-      "_target": null
-    },
-    "_isScrollable": false,
-    "_defaultScrollPercent": 0
-  },
-  {
-    "_component": "text",
     "_classes": "",
     "_isOptional": false,
     "_isAvailable": true,
@@ -653,10 +134,6 @@
     "_pageLevelProgress": {
       "_isEnabled": false,
       "_isCompletionIndicatorEnabled": false
-    },
-    "_transmitter": {
-      "_isEnabled": false,
-      "_componentURI": ""
     },
     "instruction": ""
   },
@@ -695,10 +172,6 @@
     "_pageLevelProgress": {
       "_isEnabled": false,
       "_isCompletionIndicatorEnabled": false
-    },
-    "_transmitter": {
-      "_isEnabled": false,
-      "_componentURI": ""
     },
     "instruction": "",
     "_graphic": {
@@ -749,10 +222,6 @@
       "_isEnabled": false,
       "_isCompletionIndicatorEnabled": false
     },
-    "_transmitter": {
-      "_isEnabled": false,
-      "_componentURI": ""
-    },
     "instruction": ""
   },
   {
@@ -767,11 +236,11 @@
     "_disableAccessibilityState": false,
     "title": "Summary",
     "displayTitle": "Summary",
-    "body": "<p>Data-cleaning is essential to ensure that when the data is used, the right conclusions are made.</p><p>Often errors are not even noticed by data publishers because the data can change over many years. Errors can be the result of human mistakes in data entry, like mistyping or incorrect abbreviations.</p><p>Be aware that cleaning may take longer than you think. A careful cleaning process will, however, save substantial time in the long-run.</p><p>We hope you have enjoyed this exercise. Why not try your hand at some of our other high quality learning experiences including our refreshed <a href=\"https://learning.theodi.org/courses/strategic-data-skills-self-paced\" target=\"_blank\">Strategic Data Skills</a> course designed to equip you with the knowledge, practical skills and technical know-how to make better decisions using data, without complex programming techniques.</p>",
+    "body": "<p>We hope you have enjoyed this short learning experience. As well as sharing a sample of our learning content with you, we have also used this opportunity to provide you with the opportunity to experience the AI Assistant Tutor (powered by ChatGPT) to generate formative feedback.</p><p><a class=\"button\" href=\"https://learning.theodi.org/courses/strategic-data-skills-self-paced\" target=\"_blank\">You can learn more about data cleaning on our newly revamped Strategic Data Skills course</a></p>",
     "_id": "6544fba8736c1100e618d3c7",
     "_parentId": "6544fb4e736c1100e618cc90",
     "_type": "component",
-    "_layout": "left",
+    "_layout": "full",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
@@ -790,65 +259,8 @@
     "_pageLevelProgress": {
       "_isEnabled": false,
       "_isCompletionIndicatorEnabled": false
-    },
-    "_transmitter": {
-      "_isEnabled": false,
-      "_componentURI": ""
     },
     "instruction": ""
-  },
-  {
-    "_component": "graphic",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_isResetOnRevisit": "false",
-    "_ariaLevel": 0,
-    "_disableAccessibilityState": false,
-    "title": "Clipboard",
-    "displayTitle": "",
-    "body": "",
-    "_id": "6544fbaf736c1100e618d408",
-    "_parentId": "6544fb4e736c1100e618cc90",
-    "_type": "component",
-    "_layout": "right",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_tutor": {
-      "_isInherited": true,
-      "_type": "notify",
-      "_classes": "",
-      "_hasNotifyBottomButton": false,
-      "_button": {
-        "text": "{{_globals._extensions._tutor.hideFeedback}}",
-        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
-      }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "_transmitter": {
-      "_isEnabled": false,
-      "_componentURI": ""
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "longdescription": "",
-      "large": "course/en/assets/50cd2a8785a924e204ab876d46a71c045cb0f0fc.png",
-      "small": "course/en/assets/50cd2a8785a924e204ab876d46a71c045cb0f0fc.png",
-      "attribution": "<a href=\"theodi.org\" target=\"_blank\">ODI</a> <span class='assetLicence'>[All rights reserved]</span>",
-      "_url": "",
-      "_target": null
-    },
-    "_isScrollable": false,
-    "_defaultScrollPercent": 0
   },
   {
     "_component": "text",
@@ -860,9 +272,9 @@
     "_isResetOnRevisit": "false",
     "_ariaLevel": 0,
     "_disableAccessibilityState": false,
-    "title": "Can you help us?",
-    "displayTitle": "Can you help us?",
-    "body": "<p>We hope you have enjoyed this short learning experience. As well as sharing a sample of our learning content with you, we have also used this opportunity to provide you with the opportunity to experience the AI Assistant Tutor (powered by ChatGPT) to generate formative feedback.<br /><br />At ODI, we aim to explore how responsible Generative AI (Artificial Intelligence) can improve the learning experience in formative assessments. We are excited to have received funding from UKRI for SAGE-RAI (Smart Assessment and Guided Education with Responsible AI) - which will work with educational GenAI tools, including the AI Digital Assistant, to explore how the use of responsible GenAI may lead to improved student achievements.&nbsp;</p><p>Inspired by Bloom’s 1984 study on one-on-one teaching effectiveness and the potential for cost-effective personalised education at scale, the project’s goal is to overcome tutor limitations in handling large groups by investigating how responsible GenAI can enhance tutoring, offer tailored learning experiences and provide student feedback. The project aims to create a platform that supports assessment and student guidance while addressing issues like misinformation, copyright and bias.</p><p>The project will deliver open-source and openly licensed reusable tools to support students around formative and summative assessment, to enhance learning, and provide insights into the sustainability of GenAI. It will also develop best practices and guidance on how to apply GenAI in educational settings in a responsible ethical manner.&nbsp;</p><p>The SAGE-RAI project is a partnership between The Open University and the <a href=\"https://theodi.org/\">Open Data Institute</a> which was founded in 2012 by Sir Tim Berners-Lee. The project has been awarded by <a href=\"https://www.rai.ac.uk/\">Responsible AI UK</a>, which aims to connect UK research into Responsible AI to leading research centres and institutions around the world.&nbsp;</p><p>We are hopeful that this project will prove to be a game-changer for adult education providing cheap and easy access to high quality learning.</p><p><strong>A Request for Feedback</strong>: We are looking for input from learners like you to support our project. Your feedback is essential in shaping the responsible use of AI in education. Please take a short survey (no more than 3 mins of your time), to provide feedback on your learning experience, and your exposure to the Assistant AI Tutor. Your input will help us create a tool that benefits both learners and educators.<br /><br /><strong>Why Your Feedback Matters</strong>: We want to ensure that our Assistant AI Tutor enhances your educational experience and acts as an effective tool to provide effective personalised learning. However, in our investigations we are committed to identifying consequences, as well as addressing potential challenges and uncertainties. Your insights will help us refine our approach and understand how Generative AI can be used as a valuable tool for learning.</p>",
+    "title": "What's next for the AI Assistant Tutor?",
+    "displayTitle": "What's next for the AI Assistant Tutor?",
+    "body": "<p>At ODI, we aim to explore how responsible Generative AI (Artificial Intelligence) can improve the learning experience in formative assessments. We are excited to have received funding from UKRI for SAGE-RAI (Smart Assessment and Guided Education with Responsible AI) - which will work with educational GenAI tools, including the AI Digital Assistant, to explore how the use of responsible GenAI may lead to improved student achievements.&nbsp;</p><p>Inspired by Bloom’s 1984 study on one-on-one teaching effectiveness and the potential for cost-effective personalised education at scale, the project’s goal is to overcome tutor limitations in handling large groups by investigating how responsible GenAI can enhance tutoring, offer tailored learning experiences and provide student feedback. The project aims to create a platform that supports assessment and student guidance while addressing issues like misinformation, copyright and bias.</p><p>The project will deliver open-source and openly licensed reusable tools to support students around formative and summative assessment, to enhance learning, and provide insights into the sustainability of GenAI. It will also develop best practices and guidance on how to apply GenAI in educational settings in a responsible ethical manner.&nbsp;</p><p>The SAGE-RAI project is a partnership between The Open University and the <a href=\"https://theodi.org/\">Open Data Institute</a> which was founded in 2012 by Sir Tim Berners-Lee. The project has been awarded by <a href=\"https://www.rai.ac.uk/\">Responsible AI UK</a>, which aims to connect UK research into Responsible AI to leading research centres and institutions around the world.&nbsp;</p><p>We are hopeful that this project will prove to be a game-changer for adult education providing cheap and easy access to high quality learning.</p><p><strong>A Request for Feedback</strong>: We are looking for input from learners like you to support our project. Your feedback is essential in shaping the responsible use of AI in education. Please take a short survey (no more than 3 mins of your time), to provide feedback on your learning experience, and your exposure to the Assistant AI Tutor. Your input will help us create a tool that benefits both learners and educators.<br /><br /><strong>Why Your Feedback Matters</strong>: We want to ensure that our Assistant AI Tutor enhances your educational experience and acts as an effective tool to provide effective personalised learning. However, in our investigations we are committed to identifying consequences, as well as addressing potential challenges and uncertainties. Your insights will help us refine our approach and understand how Generative AI can be used as a valuable tool for learning.</p>",
     "_id": "65450391736c1100e6193aad",
     "_parentId": "6545023e736c1100e6193283",
     "_type": "component",
@@ -885,10 +297,6 @@
     "_pageLevelProgress": {
       "_isEnabled": false,
       "_isCompletionIndicatorEnabled": false
-    },
-    "_transmitter": {
-      "_isEnabled": false,
-      "_componentURI": ""
     },
     "instruction": ""
   },
@@ -928,10 +336,6 @@
       "_isEnabled": false,
       "_isCompletionIndicatorEnabled": false
     },
-    "_transmitter": {
-      "_isEnabled": false,
-      "_componentURI": ""
-    },
     "instruction": ""
   },
   {
@@ -969,10 +373,6 @@
     "_pageLevelProgress": {
       "_isEnabled": false,
       "_isCompletionIndicatorEnabled": false
-    },
-    "_transmitter": {
-      "_isEnabled": false,
-      "_componentURI": ""
     },
     "instruction": "",
     "_graphic": {
