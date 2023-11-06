@@ -30,7 +30,7 @@
       "_assessmentWeight": 1,
       "_suppressMarking": false,
       "_isResetOnRevisit": false,
-      "_allowResetIfPassed": true,
+      "_allowResetIfPassed": false,
       "_scrollToOnReset": false,
       "_randomisation": {
         "_isEnabled": false,

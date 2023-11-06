@@ -80,8 +80,8 @@
         "ariaLabel": ""
       },
       "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
+        "buttonText": "Reset unavailable",
+        "ariaLabel": "Reset unavailable"
       },
       "_showCorrectAnswer": {
         "buttonText": "",
